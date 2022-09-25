@@ -1,0 +1,85 @@
+.login-card {
+    /* border: 2px solid black; */
+    width: 30%;
+    margin-left: 8%;
+    /* background-color: #424242; */
+    border-radius: 30px;
+    padding: 3em 0;
+}
+/* Whats Uppppp */
+body {
+    background: url(https://images.unsplash.com/photo-1505226755626-21044548b8aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1537&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.head {
+    padding-left: 0.5em;
+    color: white;
+}
+
+.dot {
+    color: #5195Ea;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+    border: none;
+    padding: 0.8em;
+    margin: 0.7em;
+    border-radius: 11px;
+    height: 1.2rem;
+    background-color: #262626;
+    color: white;
+}
+
+.btn {
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.login-btn:hover {
+    background-color: #1A429C;
+}
+
+.register-btn:hover {
+    background-color: #464646;
+}
+
+button {
+    border: none;
+    width: 47%;
+    padding: 0.8em;
+    border-radius: 30px;
+    color: white;
+}
+
+.register-btn {
+    background-color: #595B63;
+}
+
+.login-btn {
+    background-color: #5195EA;
+}
+
+.together {
+    display: flex;
+    justify-content: space-between;
+}
+
+.normal {
+    display: flex;
+    flex-direction: column;
+}
+
+.nice {
+    width: 39%;
+}
