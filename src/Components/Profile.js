@@ -31,6 +31,12 @@ export default function Profile() {
             <div className="cover">
                 <img src="https://wallpapers.com/images/hd/shah-rukh-khan-cool-pose-oyn00f93n92kdwwe-oyn00f93n92kdwwe.jpg" alt="img" className='cover-img'/>
             </div>
+            <div className="photo-uploads">
+                <img src="https://i.pinimg.com/originals/26/fa/d6/26fad6d82824a19e29c5c3dc8ee8306f.jpg" alt="img" className='uploads'/>
+                <img src="https://filmfare.wwmindia.com/content/2020/jul/shahrukhkhan41595146503.jpg" alt="img" className='uploads'/>
+                <img src="https://i.pinimg.com/originals/26/fa/d6/26fad6d82824a19e29c5c3dc8ee8306f.jpg" alt="img" className='uploads'/>
+
+            </div>
         </div>
     
 

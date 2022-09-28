@@ -1,5 +1,6 @@
 body {
-    background: url(https://images.unsplash.com/photo-1505226755626-21044548b8aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1537&q=80);
+    /* background: url(https://images.unsplash.com/photo-1505226755626-21044548b8aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1537&q=80); */
+    background-color: black;
     background-size: cover;
     /* background-position: center; */
     color: white;
@@ -20,6 +21,7 @@ body {
 }
 .bio{
     width: 25%;
+    margin-top: 2rem;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
@@ -50,12 +52,40 @@ body {
 
 
 .cover{
-    max-height:100px;
-    /* overflow:hidden;
-     */
-     object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height:15rem;
+    /* margin-top: 2rem; */
+    overflow:hidden;
+    object-fit: cover;
+    width: 85%;
+    border-radius: 25px;
 }
 .cover-img{
     width: 100%;
 
+}
+
+.photo-content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    /* background-color: pink; */
+    flex-direction: column;
+    
+    /* align-items: center; */
+}
+
+
+.photo-uploads{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 3rem;
+}
+.uploads{
+    object-fit: contain;
+    width: 30%;
 }
