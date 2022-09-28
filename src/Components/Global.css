@@ -1,6 +1,61 @@
+body {
+    background: url(https://images.unsplash.com/photo-1505226755626-21044548b8aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1537&q=80);
+    background-size: cover;
+    /* background-position: center; */
+    color: white;
+}
+
+
 /* Navbar */
 
 .translucent{
     opacity: 0.7;
 }
 
+
+/* Profile */
+.cont{
+    display: flex;
+    padding: 5em 3em 1em 3em;       /* top right bottom left   */
+}
+.bio{
+    width: 25%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo-content{
+    width: 75%;
+    /* background-color: blue; */
+}
+.profile-img{
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    margin: 1rem;
+}
+
+.reach{
+    display: flex;
+}
+.reach-comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem;
+}
+
+
+.cover{
+    max-height:100px;
+    /* overflow:hidden;
+     */
+     object-fit: cover;
+}
+.cover-img{
+    width: 100%;
+
+}
